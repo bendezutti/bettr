@@ -1,0 +1,14 @@
+.buttons {
+    background: transparent;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  
+  .buttons img {
+    display: block;
+    width: 200px; /* Adjust as needed */
+    height: 200px;
+    border-radius: 50%; /* For a circle */
+  }
+  
