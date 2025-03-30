@@ -10,7 +10,7 @@ app.use(cors())
 
 app.get('/api/geminiResponse', async (req, res) => {
 
-  const ai = new GoogleGenAI({ apiKey: "AIzaSyDUJQrc9McjOipcgvauvB6F96neMDFUT6E" });
+  const ai = new GoogleGenAI({ apiKey: "api" });
   try {
 
     const response = await ai.models.generateContent({
