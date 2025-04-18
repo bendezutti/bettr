@@ -5,11 +5,13 @@ import "./NavBar.css";
 
 const NavBar = () => {
   return (
-  
-    <div> 
-    <Link to="/baseball">
+
+    <div className="background"> 
+    <h2> Bettr </h2>
+    <Link to="/">
       <button className="buttons">
         <img src={baseballImg} alt="baseball" />
+        
       </button>
     </Link>
     </div>
